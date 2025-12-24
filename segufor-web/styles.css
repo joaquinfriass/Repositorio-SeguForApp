@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.menu a {
+    display: block;
+    margin: 10px 0;
+    background: #007BFF;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background: #0056b3;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.btn-volver {
+    background: green;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 8px 15px;
+    background: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-volver:hover {
+    background: #000;
+}
+
+.btn-editar {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-eliminar {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #E51a4c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.ok { color: green; }
+.error { color: red; }
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    background: white;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    padding: 10px;
+}
